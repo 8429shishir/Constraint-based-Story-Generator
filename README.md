@@ -13,11 +13,11 @@ The system takes multiple input images, analyzes them to detect visual themes an
 
 ## ✨ Key Features
 
-<h3> Image Understanding:</h3> Extracts captions, objects, and emotions from each image.
+ **Image Understanding:** Extracts captions, objects, and emotions from each image.
 
-<h3> Theme-based Sorting:</h3> Groups and orders images based on semantic similarity using CLIP embeddings.
+**Theme-based Sorting:** Groups and orders images based on semantic similarity using CLIP embeddings.
 
-<h3> Constraint-based Story Generation:</h3> Users can define constraints such as:
+**Constraint-based Story Generation:** Users can define constraints such as:
 <br> 1. Word count or sentence limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
 ## 🗣️ Interactive User Control: 
@@ -106,13 +106,13 @@ Checks story coherence, creativity, and constraint satisfaction using NLP metric
 
 ## 📈 Evaluation Metrics
 
-BLEU / ROUGE: Measures linguistic similarity.
+**BLEU / ROUGE:** Measures linguistic similarity.
 
-BERTScore: Evaluates semantic similarity.
+**BERTScore:** Evaluates semantic similarity.
 
-Constraint Accuracy: Checks whether the generated story meets user-defined conditions.
+**Constraint Accuracy:** Checks whether the generated story meets user-defined conditions.
 
-Human Evaluation: Coherence, creativity, and engagement.
+**Human Evaluation:** Coherence, creativity, and engagement.
 
 ## 🌱 Future Improvements
 
