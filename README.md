@@ -20,10 +20,6 @@ The system takes multiple input images, analyzes them to detect visual themes an
 <h3> Constraint-based Story Generation:</h3> Users can define constraints such as:
 <br> 1. Word count or sentence limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
-
-## 🔄 Plot Consistency Layer: 
-Ensures logical story flow by generating outline → expanding scenes.
-
 ## 🗣️ Interactive User Control: 
 Modify constraints dynamically or generate alternative story versions.
 
