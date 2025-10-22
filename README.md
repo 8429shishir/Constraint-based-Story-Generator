@@ -26,54 +26,57 @@ Modify constraints dynamically or generate alternative story versions.
 
 ## 📊 Story Evaluation: 
 Checks story coherence, creativity, and constraint satisfaction using NLP metrics.
+
 ```
-+-----------------------+
-|    Image Dataset      |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Image Preprocessing   |
-| (Resizing, Cleaning)  |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Image Captioning      |
-| (BLIP / OFA)          |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Embedding Extraction  |
-| (CLIP Model)          |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Theme Sorting /       |
-| Clustering (K-Means)  |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Constraint Controller |
-| (Word limit, Tone,    |
-|  Genre, POV)          |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| LLM Story Generator   |
-| (GPT / LLaMA / T5)    |
-+----------+------------+
-           |
-           v
-+-----------------------+
-| Story Evaluation      |
-| (BLEU, ROUGE, etc.)   |
-+----------+------------+
-```
+                                            
+                                            +-----------------------+
+                                            |    Image Dataset      |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Image Preprocessing   |
+                                            | (Resizing, Cleaning)  |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Image Captioning      |
+                                            | (BLIP / OFA)          |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Embedding Extraction  |
+                                            | (CLIP Model)          |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Theme Sorting /       |
+                                            | Clustering (K-Means)  |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Constraint Controller |
+                                            | (Word limit, Tone,    |
+                                            |  Genre, POV)          |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | LLM Story Generator   |
+                                            | (GPT / LLaMA / T5)    |
+                                            +----------+------------+
+                                                       |
+                                                       v
+                                            +-----------------------+
+                                            | Story Evaluation      |
+                                            | (BLEU, ROUGE, etc.)   |
+                                            +----------+------------+
+
+``` 
 ## 🧰 Technologies Used
 
 | **Category** | **Technologies / Tools** | **Purpose** |
