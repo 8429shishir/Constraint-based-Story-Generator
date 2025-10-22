@@ -1,31 +1,27 @@
-🧠 Constraint-Based Story Generator
+# 🧠 Constraint-Based Story Generator
 
 An AI-powered story generation system that creates meaningful and coherent stories from a set of input images, guided by user-defined constraints such as word limit, tone, and story type.
 This project integrates computer vision, natural language processing, and large language models (LLMs) to produce human-like storytelling experiences.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 The system takes multiple input images, analyzes them to detect visual themes and emotions, sorts them based on similarity, and then generates a contextually connected story that satisfies user constraints.
 
-🏗️ Core Idea
+## 🏗️ Core Idea
 
 “We provide a set of images → the system sorts them by themes → then creates a story using an LLM model, respecting given constraints such as word limit, story type, and tone.”
 
-✨ Key Features
+## ✨ Key Features
 
-🖼️ Image Understanding: Extracts captions, objects, and emotions from each image.
+<h3> 🖼️ Image Understanding:</h3> Extracts captions, objects, and emotions from each image.
 
-🧩 Theme-based Sorting: Groups and orders images based on semantic similarity using CLIP embeddings.
+<h3> 🧩 Theme-based Sorting:</h3> Groups and orders images based on semantic similarity using CLIP embeddings.
 
-🧠 Constraint-based Story Generation: Users can define constraints such as:
-
-Word count or sentence limit
-
-Story type (romantic, thriller, fantasy, etc.)
-
-Tone (happy, sad, mysterious, inspirational)
-
-Narrative voice (first-person, third-person)
+<h3> 🧠 Constraint-based Story Generation:</h3> Users can define constraints such as:
+<br> 1. Word count or sentence limit 
+<br> 2. Story type (romantic, thriller, fantasy, etc.) </br>
+<br> 3. Tone (happy, sad, mysterious, inspirational) </br>
+<br> 4. Narrative voice (first-person, third-person) </br>
 
 🔄 Plot Consistency Layer: Ensures logical story flow by generating outline → expanding scenes.
 
