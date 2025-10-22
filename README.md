@@ -88,40 +88,29 @@ Narrative voice (first-person, third-person)
 | (Images + VoiceOver)  |
 +-----------------------+
 ```
-🧰 Technologies Used
-🖼️ Computer Vision
+## 🧰 Technologies Used
 
-OpenAI CLIP – for semantic embedding & image similarity
+| **Category** | **Technologies / Tools** | **Purpose** |
+|---------------|---------------------------|--------------|
+| 🖼️ **Computer Vision** | - OpenAI CLIP  <br> - BLIP / InstructBLIP / OFA  <br> - YOLOv8 / DETR *(optional)*  <br> - DeepFace / FER+ *(optional)* | - Semantic embedding & image similarity <br> - Image caption generation <br> - Object & action detection <br> - Emotion recognition |
+| 💬 **Natural Language Processing** | - GPT-4 / LLaMA 3 / FLAN-T5  <br> - LangChain  <br> - BERTScore, BLEU, ROUGE | - Constraint-based story generation <br> - Prompt chaining & constraint control <br> - Story quality evaluation |
+| 🧠 **Backend & Data Processing** | - Python 3.x  <br> - PyTorch / TensorFlow  <br> - NumPy / Pandas / scikit-learn  <br> - Flask / Streamlit | - Model inference <br> - Data preprocessing & clustering <br> - Building interactive UI |
+| 🎬 **Multimedia (Optional)** | - gTTS / ElevenLabs API  <br> - MoviePy / OpenCV | - Voice narration <br> - Generating storytelling videos |
 
-BLIP / InstructBLIP / OFA – for image caption generation
+---
 
-YOLOv8 / DETR – for object detection (optional)
+## ⚙️ Installation
 
-DeepFace / FER+ – for emotion detection (optional)
+| **Step** | **Command / Description** |
+|-----------|----------------------------|
+| **1. Clone Repository** | ```bash<br>git clone https://github.com/yourusername/constraint-based-story-generator.git<br>cd constraint-based-story-generator<br>``` |
+| **2. Create Virtual Environment** | ```bash<br>python -m venv venv<br>source venv/bin/activate   # (Linux/Mac)<br>venv\Scripts\activate      # (Windows)<br>``` |
+| **3. Install Dependencies** | ```bash<br>pip install -r requirements.txt<br>``` |
+| **4. Run the Application** | ```bash<br>python app.py<br>``` |
+| **5. Access the Web UI** | Open `http://localhost:5000/` or Streamlit URL (if used) |
 
-💬 Natural Language Processing
+---
 
-GPT-4 / LLaMA 3 / FLAN-T5 – for constraint-based story generation
-
-LangChain – for prompt chaining & constraint control
-
-BERTScore, BLEU, ROUGE – for story evaluation
-
-🧠 Backend & Data
-
-Python 3.x
-
-PyTorch / TensorFlow – for model inference
-
-NumPy / Pandas / scikit-learn – for clustering and preprocessing
-
-Flask / Streamlit – for building interactive UI
-
-🎬 Multimedia (Optional)
-
-gTTS / ElevenLabs API – for voice narration
-
-MoviePy / OpenCV – for generating storytelling videos
 
 | Step | Module                             | Description                                                |
 | ---- | ---------------------------------- | ---------------------------------------------------------- |
