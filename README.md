@@ -28,8 +28,6 @@ The system takes multiple input images, analyzes them to detect visual themes an
 🗣️ Interactive User Control: Modify constraints dynamically or generate alternative story versions.
 
 📊 Story Evaluation: Checks story coherence, creativity, and constraint satisfaction using NLP metrics.
-
-🎬 Optional Multi-modal Output: Combines story text, input images, and voice narration into a storytelling video.
 ```
 +-----------------------+
 |    Image Dataset      |
