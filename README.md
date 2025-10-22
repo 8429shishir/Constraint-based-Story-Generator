@@ -18,16 +18,17 @@ The system takes multiple input images, analyzes them to detect visual themes an
 <h3> 🧩 Theme-based Sorting:</h3> Groups and orders images based on semantic similarity using CLIP embeddings.
 
 <h3> 🧠 Constraint-based Story Generation:</h3> Users can define constraints such as:
-<br> 1. Word count or sentence limit 
-<br> 2. Story type (romantic, thriller, fantasy, etc.) </br>
-<br> 3. Tone (happy, sad, mysterious, inspirational) </br>
-<br> 4. Narrative voice (first-person, third-person) </br>
+<br> 1. Word count or sentence limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
-🔄 Plot Consistency Layer: Ensures logical story flow by generating outline → expanding scenes.
 
-🗣️ Interactive User Control: Modify constraints dynamically or generate alternative story versions.
+## 🔄 Plot Consistency Layer: 
+Ensures logical story flow by generating outline → expanding scenes.
 
-📊 Story Evaluation: Checks story coherence, creativity, and constraint satisfaction using NLP metrics.
+## 🗣️ Interactive User Control: 
+Modify constraints dynamically or generate alternative story versions.
+
+## 📊 Story Evaluation: 
+Checks story coherence, creativity, and constraint satisfaction using NLP metrics.
 ```
 +-----------------------+
 |    Image Dataset      |
