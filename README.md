@@ -34,7 +34,7 @@ Narrative voice (first-person, third-person)
 📊 Story Evaluation: Checks story coherence, creativity, and constraint satisfaction using NLP metrics.
 
 🎬 Optional Multi-modal Output: Combines story text, input images, and voice narration into a storytelling video.
-
+```
 +-----------------------+
 |    Image Dataset      |
 +----------+------------+
@@ -87,7 +87,7 @@ Narrative voice (first-person, third-person)
 | Optional: Story Video |
 | (Images + VoiceOver)  |
 +-----------------------+
-
+```
 🧰 Technologies Used
 🖼️ Computer Vision
 
