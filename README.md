@@ -108,7 +108,7 @@ Checks story coherence, creativity, and constraint satisfaction using NLP metric
 | 5    | **Story Generation**               | LLM generates coherent narrative based on sorted images.   |
 | 6    | **Story Evaluation**               | Evaluate coherence & constraint satisfaction.              |
 
-📈 Evaluation Metrics
+## 📈 Evaluation Metrics
 
 BLEU / ROUGE: Measures linguistic similarity.
 
@@ -118,7 +118,7 @@ Constraint Accuracy: Checks whether the generated story meets user-defined condi
 
 Human Evaluation: Coherence, creativity, and engagement.
 
-🌱 Future Improvements
+## 🌱 Future Improvements
 
 Fine-tune smaller LLMs on visual storytelling datasets (like VIST).
 
