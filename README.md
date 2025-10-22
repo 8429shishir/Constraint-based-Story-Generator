@@ -1,4 +1,4 @@
-# 🧠 Constraint-Based Story Generator
+<div align = "center" > <h1>🧠 Constraint-Based Story Generator</h1> </div>
 
 An AI-powered story generation system that creates meaningful and coherent stories from a set of input images, guided by user-defined constraints such as word limit, tone, and story type.
 This project integrates computer vision, natural language processing, and large language models (LLMs) to produce human-like storytelling experiences.
@@ -17,7 +17,8 @@ The system takes multiple input images, analyzes them to detect visual themes an
 
 **Theme-based Sorting:** Groups and orders images based on semantic similarity using CLIP embeddings.
 
-**Constraint-based Story Generation:** Users can define constraints such as:
+**Constraint-based Story Generation:** <br>
+Users can define constraints such as:
 <br> 1. Word count or sentence limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
 ## 🗣️ Interactive User Control: 
