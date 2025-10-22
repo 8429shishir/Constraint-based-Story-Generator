@@ -120,11 +120,11 @@ Checks story coherence, creativity, and constraint satisfaction using NLP metric
 
 ## 🌱 Future Improvements
 
-Fine-tune smaller LLMs on visual storytelling datasets (like VIST).
+1.Fine-tune smaller LLMs on visual storytelling datasets (like VIST).
 
-Introduce reinforcement learning for better constraint adherence.
+2.Introduce reinforcement learning for better constraint adherence.
 
-Enable multi-lingual story generation.
+3.Enable multi-lingual story generation.
 
-Implement real-time storytelling assistant for educational or entertainment use.
+4.Implement real-time storytelling assistant for educational or entertainment use.
 
