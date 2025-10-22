@@ -77,12 +77,6 @@ The system takes multiple input images, analyzes them to detect visual themes an
 | Story Evaluation      |
 | (BLEU, ROUGE, etc.)   |
 +----------+------------+
-           |
-           v
-+-----------------------+
-| Optional: Story Video |
-| (Images + VoiceOver)  |
-+-----------------------+
 ```
 ## 🧰 Technologies Used
 
