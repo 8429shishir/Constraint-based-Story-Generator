@@ -128,9 +128,3 @@ Enable multi-lingual story generation.
 
 Implement real-time storytelling assistant for educational or entertainment use.
 
-| Role          | Member          | Responsibility                            |
-| ------------- | --------------- | ----------------------------------------- |
-| Vision Module | (Your Name)     | Image processing & theme sorting          |
-| NLP Module    | (Teammate Name) | Story generation & constraint enforcement |
-| UI/Backend    | (Teammate Name) | Web interface & integration               |
-| Evaluation    | (Teammate Name) | Story quality analysis                    |
