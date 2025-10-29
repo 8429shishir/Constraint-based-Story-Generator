@@ -1,0 +1,14 @@
+# ================================
+# CONFIGURATION FILE
+# ================================
+device: cpu              # Change to 'cuda' if you have GPU
+max_words: 300           # Word limit for generated story
+story_tone: inspirational
+story_gen_model: gpt-4   # or local model name (e.g., llama)
+image_caption_model: blip
+clip_model: openai/clip-vit-base-patch32
+
+# Clustering settings
+clustering:
+  method: kmeans
+  clusters: 5
