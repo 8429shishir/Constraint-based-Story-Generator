@@ -14,12 +14,7 @@ The system takes multiple input images, analyzes them to detect visual themes an
 ## ✨ Key Features
 
  **Image Understanding:** Extracts captions, objects, and emotions from each image.
-
-**Theme-based Sorting:** Groups and orders images based on semantic similarity using CLIP embeddings.
-
-**Constraint-based Story Generation:** <br>
-Users can define constraints such as:
-<br> 1. Word count or sentence limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
+rs limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
 ## 🗣️ Interactive User Control: 
 Modify constraints dynamically or generate alternative story versions.
