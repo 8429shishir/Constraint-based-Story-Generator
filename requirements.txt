@@ -1,0 +1,27 @@
+# Core utilities
+numpy
+pandas
+tqdm
+pyyaml
+python-dotenv
+
+# Deep learning & NLP
+torch        # CPU version (we’ll add GPU later if you have one)
+torchvision
+transformers
+sentence-transformers
+
+# Computer vision (image reading, captioning, embeddings)
+Pillow
+opencv-python
+
+# Optional: image captioning models
+# git+https://github.com/salesforce/BLIP.git@main
+
+# Evaluation metrics
+rouge-score
+bert-score
+
+# App/UI
+flask
+streamlit
