@@ -14,7 +14,7 @@ def load_clip_model(device="cpu"):
     """
     Load the CLIP model and processor.
     """
-    print("⚡ Loading CLIP model (it may take a minute on first run)...")
+    print("Loading CLIP model (it may take a minute on first run)...")
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
     return processor, model
@@ -30,10 +30,10 @@ def generate_embeddings(images, captions, processor, model, device="cpu"):
     Returns:
         (torch.Tensor, torch.Tensor): image_embeds, text_embeds
     """
-    print("🧮 Generating embeddings...")
+    print("Generating embeddings...")
     image_embeds, text_embeds = [], []
 
-    for img, caption in tqdm(zip(images, captions), total=len(images), desc="🔢 Encoding pairs"):
+    for img, caption in tqdm(zip(images, captions), total=len(images), desc="Encoding pairs"):
         inputs = processor(text=[caption], images=img, return_tensors="pt", padding=True).to(device)
         outputs = model(**inputs)
         img_emb = outputs.image_embeds.detach().cpu()
@@ -44,7 +44,7 @@ def generate_embeddings(images, captions, processor, model, device="cpu"):
     image_embeds = torch.cat(image_embeds)
     text_embeds = torch.cat(text_embeds)
 
-    print(f"✅ Generated {len(image_embeds)} embeddings.")
+    print(f"Generated {len(image_embeds)} embeddings.")
     return image_embeds, text_embeds
 
 

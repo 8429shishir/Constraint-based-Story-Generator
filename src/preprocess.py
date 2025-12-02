@@ -17,9 +17,9 @@ def load_images_from_folder(folder_path, resize=(224, 224)):
     supported_formats = ('.jpg', '.jpeg', '.png', '.bmp', '.webp')
 
     if not os.path.exists(folder_path):
-        raise FileNotFoundError(f"❌ Folder not found: {folder_path}")
+        raise FileNotFoundError(f" Folder not found: {folder_path}")
 
-    for filename in tqdm(os.listdir(folder_path), desc="🖼️ Loading images"):
+    for filename in tqdm(os.listdir(folder_path), desc="Loading images"):
         if filename.lower().endswith(supported_formats):
             path = os.path.join(folder_path, filename)
             try:
@@ -28,7 +28,7 @@ def load_images_from_folder(folder_path, resize=(224, 224)):
                 images.append(img)
             except Exception as e:
                 print(f"⚠️ Could not load {filename}: {e}")
-    print(f"✅ Loaded {len(images)} images from {folder_path}")
+    print(f" Loaded {len(images)} images from {folder_path}")
     return images
 
 

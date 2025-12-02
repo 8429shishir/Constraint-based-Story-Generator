@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 # initialize BLIP model
 def load_blip_model(device="cpu"):
-    print("🚀 Loading BLIP model (it may take a minute the first time)...")
+    print("Loading BLIP model (it may take a minute the first time)...")
     processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
     model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
     return processor, model
@@ -16,7 +16,7 @@ def generate_captions(images, processor, model, device="cpu"):
     Takes a list of PIL images and returns generated captions.
     """
     captions = []
-    for img in tqdm(images, desc="🧠 Generating captions"):
+    for img in tqdm(images, desc="Generating captions"):
         inputs = processor(images=img, return_tensors="pt").to(device)
         out = model.generate(**inputs)
         text = processor.decode(out[0], skip_special_tokens=True)
@@ -39,6 +39,6 @@ if __name__ == "__main__":
     processor, model = load_blip_model(device)
     captions = generate_captions(images, processor, model, device)
 
-    print("\n📝 Generated Captions:")
+    print("\n Generated Captions:")
     for i, cap in enumerate(captions, 1):
         print(f"{i}. {cap}")
