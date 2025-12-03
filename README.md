@@ -14,7 +14,12 @@ The system takes multiple input images, analyzes them to detect visual themes an
 ## ✨ Key Features
 
  **Image Understanding:** Extracts captions, objects, and emotions from each image.
-rs limit .<br> 2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
+ 
+
+**Theme-based Sorting:** Groups and orders images based on semantic similarity using CLIP embeddings and Clustering.
+
+**Constraint-based Story Generation:** Users can define constraints such as:
+<br> 1. Word count or sentence limit .<br>2. Story type (romantic, thriller, fantasy, etc.) <br> 3. Tone (happy, sad, mysterious, inspirational) <br> 4. Narrative voice (first-person, third-person)
 
 ## 🗣️ Interactive User Control: 
 Modify constraints dynamically or generate alternative story versions.
@@ -76,24 +81,26 @@ Checks story coherence, creativity, and constraint satisfaction using NLP metric
 
 | **Category** | **Technologies / Tools** | **Purpose** |
 |---------------|---------------------------|--------------|
-| 🖼️ **Computer Vision** | - OpenAI CLIP  <br> - BLIP / InstructBLIP / OFA  <br> - YOLOv8 / DETR *(optional)*  <br> - DeepFace / FER+ *(optional)* | - Semantic embedding & image similarity <br> - Image caption generation <br> - Object & action detection <br> - Emotion recognition |
-| 💬 **Natural Language Processing** | - GPT-4 / LLaMA 3 / FLAN-T5  <br> - LangChain  <br> - BERTScore, BLEU, ROUGE | - Constraint-based story generation <br> - Prompt chaining & constraint control <br> - Story quality evaluation |
-| 🧠 **Backend & Data Processing** | - Python 3.x  <br> - PyTorch / TensorFlow  <br> - NumPy / Pandas / scikit-learn  <br> - Flask / Streamlit | - Model inference <br> - Data preprocessing & clustering <br> - 
+| 🖼️ **Computer Vision** | - OpenAI CLIP  <br> - BLIP / InstructBLIP /| - Semantic embedding & image similarity <br> - Image caption generation <br>|
+| 💬 **Natural Language Processing** | - Qwen2.5 <br> - BERTScore, BLEU, ROUGE | - Constraint-based story generation <br> - Story quality evaluation |
+| 🧠 **Backend & Data Processing** | - Python 3.10  <br> - PyTorch / TensorFlow  <br> - NumPy / Pandas / scikit-learn  <br> Streamlit | - Model inference <br> - Data preprocessing & clustering <br> 
 ---
 
 ## ⚙️ Installation
 
 | **Step** | **Command / Description** |
-|-----------|----------------------------|
-| **1. Clone Repository** | ```bash<br>git clone https://github.com/yourusername/constraint-based-story-generator.git<br>cd constraint-based-story-generator<br>``` |
-| **2. Create Virtual Environment** | ```bash<br>python -m venv venv<br>source venv/bin/activate   # (Linux/Mac)<br>venv\Scripts\activate      # (Windows)<br>``` |
-| **3. Install Dependencies** | ```bash<br>pip install -r requirements.txt<br>``` |
-| **4. Run the Application** | ```bash<br>python app.py<br>``` |
-| **5. Access the Web UI** | Open `http://localhost:5000/` or Streamlit URL (if used) |
+|---------|----------------------------|
+| **1. Clone Repository** | <pre>git clone https://github.com/8429shishir/Constraint-based-Story-Generator.git|
+|Move inside Project | <pre>cd constraint-based-story-generator</pre> |
+| **2. Create Virtual Environment** | <pre>python -m venv venv
+| Activate Environment(Linux/Mac)|<pre>source venv/bin/activate  </pre> 
+|  Activate Environment(Windows)|<pre>venv\Scripts\activate    </pre> |
+| **3. Install Dependencies** | <pre>pip install -r requirements.txt</pre> |
+| **4. Run the Application** | <pre>streamlit run app.py</pre> |
+| **5. Access the Web UI** | <pre>Open `http://localhost:5000/` or Streamlit URL</pre> |
 
----
 
-
+## Modules
 | Step | Module                             | Description                                                |
 | ---- | ---------------------------------- | ---------------------------------------------------------- |
 | 1    | **Input & Preprocessing**          | User uploads images, system resizes and normalizes them.   |
@@ -111,7 +118,7 @@ Checks story coherence, creativity, and constraint satisfaction using NLP metric
 
 **Constraint Accuracy:** Checks whether the generated story meets user-defined conditions.
 
-**Human Evaluation:** Coherence, creativity, and engagement.
+
 
 ## 🌱 Future Improvements
 
